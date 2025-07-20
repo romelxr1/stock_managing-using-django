@@ -1,1 +1,5 @@
 # stock_managing-using-django
+this in application devloped using django and mysql as the dbsm it's serve the goal of automatisating the process of ordering  and the managing of the products in the warehouse 
+and the ressources of the companny wether it's material or humman  and the tracking  the state of the order from it's creation until the terminating the order and the process .
+ it has 5 actors (the client or the customer , the comercial who validate the order , the courier who deleiver the order , the technician who install the products in the order , and the admin who controlls all of that).
+ it's a typical project it can be used for a startup it's also an e-commerce web site ,after the client makes an order then he can download a pdf that contains the total of it's order if he accept then the order will be send to the commercial who has the freedom according to his own estimation to accept or refuse the demand, the customer has the possibility of canceling the order before his order is (delievred,installed,terminated)
