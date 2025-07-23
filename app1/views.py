@@ -1034,5 +1034,6 @@ def calendrier_installation(request):
         'events': json.dumps(events),  # très important !
     }
     return render(request, 'app1/calendrier.html', context)
-def test(request):
+
+def test1(request):
     return HttpResponse("c'est juste un test pas plus")

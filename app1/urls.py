@@ -3,7 +3,7 @@ from django.urls import path, include
 from app1 import views
 
 urlpatterns = [
-path('',views.welcomeview,name="acceuille"),
+path('',views.test1,name="acceuille"),
 path('login/', views.login_view, name="login"),
 path('dashboard/adminn/', views.admin_dashboard, name="adminn"),
 path('dashboard/adminn/ajouter_user/', views.ajouter_nouveau_user, name="new_user"),
@@ -54,5 +54,4 @@ path('dashboard/technicien/commandes-installer', views.commande_a_installer_tech
 path('dashboard/client/recue-commande/<int:id>', views.telecharger_recue2, name='recue_commande'),
 path('dashboard/commerciale/avis', views.avis_client_sur_commande, name='avis_client'),
 path("technicien/calendrier/", views.calendrier_installation, name="calendrier_installation"),
-path("git/", views.test, name="git"),
 ]
