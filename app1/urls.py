@@ -54,5 +54,5 @@ path('dashboard/technicien/commandes-installer', views.commande_a_installer_tech
 path('dashboard/client/recue-commande/<int:id>', views.telecharger_recue2, name='recue_commande'),
 path('dashboard/commerciale/avis', views.avis_client_sur_commande, name='avis_client'),
 path("technicien/calendrier/", views.calendrier_installation, name="calendrier_installation"),
-
+path("git/", views.test, name="git"),
 ]
